@@ -60,7 +60,7 @@
 			</ul>
 		</div>
 		<div class="page">
-			<iframe name="page" src="https://theartex.net/lukkit/docs/org/"></iframe>
+			<iframe name="page" src="org"></iframe>
 		</div>
 	</body>
 </html>

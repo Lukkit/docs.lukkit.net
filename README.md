@@ -1,2 +1,2 @@
-# Lukkit Docs (DEPRECATED)
-Documentation and other information for [Lukkit](https://github.com/jammehcow/Lukkit/).
+# Lukkit Documentation 2.0
+Pre-made documentation for the release of Lukkit 2.0.

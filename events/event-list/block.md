@@ -1,6 +1,6 @@
 # Block
 
-Events relating to when a block is changed or interacts with the world.
+Events related to block updates or world interaction.
 
 | Event| Description
 | --- | --- |

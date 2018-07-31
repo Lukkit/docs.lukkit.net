@@ -1,3 +1,3 @@
 # Storage
 
-Storage allows you to create configuration and storage files for your plugin. Creating a file is as easy as calling the [plugin.getStorageObject(file: string)](Globals#plugingetstorageobjectfile-string) method. The file parameter is relative to the plugin data folder and supports the file types `YAML` and `JSON`.
+The storage system that has been implemented into Lukkit allows you to create configuration and storage files for your plugin. Creating a file super simple, all you have to do is call the `plugin.getStorageObject(file: string)` method. The file parameter is relative to the data folder for the plugin and has support for both YAML and JSON files.

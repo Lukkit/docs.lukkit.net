@@ -1,18 +1,19 @@
 # Hello, world!
 
-This plugin is very simple. When the plugin loads "Hello, world" is printed to the console. This is a example is great to use as a template.
+This is a simple plugin that will print two messages to the server console, one when the plugin has been enabled and one when the plugin has been disabled.
 
-## Code
-### plugin.yml
+### Code
+{% code-tabs %} {% code-tabs-item title="plugin.yml" %}
 ```yaml
-name: Hello-World
+name: hello-world
 author: AL_1
 version: "1.0"
-description: Just here to say hello
+description: "Hello, world!"
 main: main.lua
 ```
+{% endcode-tabs-item %} {% endcode-tabs %}
 
-### main.lua
+{% code-tabs %} {% code-tabs-item title="main.lua" %}
 ```lua
 plugin.onEnable(function()
   logger.info("Hello, world!")
@@ -22,3 +23,4 @@ plugin.onDisable(function()
   logger.info("Goodbye, world!")
 end)
 ```
+{% endcode-tabs-item %} {% endcode-tabs %}

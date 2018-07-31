@@ -1,6 +1,6 @@
 # Inventory
 
-Events relating to inventory manipulation.
+Events regarding the manipulation of inventories.
 
 | Event| Description |
 | --- | --- |

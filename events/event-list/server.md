@@ -4,7 +4,7 @@ Events related to programmatic state changes via the server.
 
 | Event| Description |
 | --- | --- |
-| BroadcastMessageEvent | Event triggered for server broadcast messages such as from plugin.getServer():broadcast(String, String). |
+| BroadcastMessageEvent | Event triggered for server broadcast messages such as from `plugin.getServer():broadcast(String, String)`. |
 | MapInitializeEvent | Called when a map is initialized. |
 | PluginDisableEvent | Called when a plugin is disabled. |
 | PluginEnableEvent | Called when a plugin is enabled. |

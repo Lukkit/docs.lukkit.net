@@ -1,3 +1,3 @@
 # Event List
 
-This is a list of every event in the current version of Bukkit (1.12.2)
+The following is a list of all events available in the current Minecraft release. The current release we support right now is 1.12.2.

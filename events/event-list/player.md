@@ -1,6 +1,6 @@
 # Player
 
-Events relating to players.
+Events for players.
 
 | Event| Description |
 | --- | --- |

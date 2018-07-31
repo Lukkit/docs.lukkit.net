@@ -1,9 +1,11 @@
 # Toggle Fly
 
-This plugin allows users with the permission node `lukkit.command.fly` to fly when they run the `/fly` command. The plugin starts off by importing the chat color wrapper so that it can use colors in messages. Then it creates the fly command. In the command, it first checks if the sender is a player because only players are able to fly, then checks if they are already flying. If so then fly is turned off, otherwise, it is turned on. More info is explained in the code.
+This plugin allows users with the permission node `lukkit.command.fly` to begin flying when the player runs the `/fly` command. This plugin makes use of importing the chat color wrapper in order for colors to be used in messages. 
 
-## Code
-### plugin.yml
+Comments have been added to this plugin for your benefit.
+
+### Code
+{% code-tabs %} {% code-tabs-item title="plugin.yml" %}
 ```yaml
 name: Fly-Plugin
 author: AL_1
@@ -11,8 +13,9 @@ version: "1.3"
 description: A plugin to let players fly!
 main: main.lua
 ```
+{% endcode-tabs-item %} {% endcode-tabs %}
 
-### main.lua
+{% code-tabs %} {% code-tabs-item title="main.lua" %}
 ```lua
 -- Imports
 color = newInstance("#.wrappers.ChatColorWrapper", {plugin.getPlugin()})
@@ -41,3 +44,4 @@ local flyCommand = plugin.addCommand({name="fly", permission="lukkit.command.fly
     end
 end)
 ```
+{% endcode-tabs-item %} {% endcode-tabs %}

@@ -1,6 +1,6 @@
 # Entity
 
-Events relating to entities, excluding some directly referencing some more specific entity types.
+Events related to enetities, excluding some that reference entities in a more specific manner.
 
 | Event| Description |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Vehicle
 
-Events relating to vehicular entities.
+Events for vehicular entities.
 
 | Event| Description |
 | --- | --- |

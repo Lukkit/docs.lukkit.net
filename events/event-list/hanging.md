@@ -1,6 +1,6 @@
 # Hanging
 
-Events relating to entities that hang.
+Events for entities that hang.
 
 | Event| Description |
 | --- | --- |

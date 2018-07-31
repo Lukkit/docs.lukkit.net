@@ -1,6 +1,6 @@
-# Enchantment
+# Enchanting
 
-Events triggered from an enchantment table.
+Events regarding enchanting.
 
 | Event| Description |
 | --- | --- |

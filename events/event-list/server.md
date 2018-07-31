@@ -1,6 +1,6 @@
 # Server
 
-Events relating to programmatic state changes on the server.
+Events related to programmatic state changes via the server.
 
 | Event| Description |
 | --- | --- |

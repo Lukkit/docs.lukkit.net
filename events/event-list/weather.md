@@ -1,6 +1,6 @@
 # Weather
 
-Events relating to weather.
+Events for the weather.
 
 | Event| Description |
 | --- | --- |

@@ -8,3 +8,6 @@
 * [Storage](storage/README.md)
   * [The StorageObject](storage/the-storageobject.md)
   * [Example](storage/example.md)
+* [Commands](commands/README.md)
+  * [Command Options](commands/command-options.md)
+  * [Examples](commands/examples.md)

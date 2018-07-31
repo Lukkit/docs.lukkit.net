@@ -7,10 +7,10 @@ Comments have been added to this plugin for your benefit.
 ### Code
 {% code-tabs %} {% code-tabs-item title="plugin.yml" %}
 ```yaml
-name: Fly-Plugin
+name: toggle-fly
 author: AL_1
 version: "1.3"
-description: A plugin to let players fly!
+description: "I believe I can fly!"
 main: main.lua
 ```
 {% endcode-tabs-item %} {% endcode-tabs %}

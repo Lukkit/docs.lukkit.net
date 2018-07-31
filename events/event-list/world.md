@@ -1,6 +1,6 @@
 # World
 
-Events triggered by various world states or changes.
+Events that are triggered through changes to the world.
 
 | Event| Description |
 | --- | --- |

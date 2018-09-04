@@ -4,18 +4,8 @@ This plugin allows users with the permission node `lukkit.command.fly` to fly wh
 
 ## Code
 
-### plugin.yml
-
-```yaml
-name: Fly-Plugin
-author: AL_1
-version: "1.3"
-description: A plugin to let players fly!
-main: main.lua
-```
-
-### main.lua
-
+{% code-tabs %}
+{% code-tabs-item title="main.lua" %}
 ```lua
 -- Imports
 color = newInstance("#.wrappers.ChatColorWrapper", {plugin.getPlugin()})
@@ -44,4 +34,16 @@ local flyCommand = plugin.addCommand({name="fly", permission="lukkit.command.fly
     end
 end)
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="plugin.yml" %}
+```yaml
+name: Fly-Plugin
+author: AL_1
+version: "1.3"
+description: A plugin to let players fly!
+main: main.lua
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 

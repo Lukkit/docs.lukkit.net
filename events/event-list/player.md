@@ -2,11 +2,11 @@
 
 Events for players.
 
-| Event| Description |
-| --- | --- |
+| Event | Description |
+| :--- | :--- |
 | AsyncPlayerChatEvent | This event will sometimes fire synchronously, depending on how it was triggered. |
 | AsyncPlayerPreLoginEvent | Stores details for players attempting to log in. |
-| PlayerAchievementAwardedEvent	Deprecated | future versions of Minecraft do not have achievements |
+| PlayerAchievementAwardedEvent    Deprecated | future versions of Minecraft do not have achievements |
 | PlayerAdvancementDoneEvent | Called when a player has completed all criteria in an advancement. |
 | PlayerAnimationEvent | Represents a player animation event |
 | PlayerArmorStandManipulateEvent | Called when a player interacts with an armor stand and will either swap, retrieve or place an item. |
@@ -20,7 +20,7 @@ Events for players.
 | PlayerChannelEvent | This event is called after a player registers or unregisters a new plugin channel. |
 | PlayerChatEvent | Deprecated. This event will fire from the main thread and allows the use of all of the Bukkit API, unlike the AsyncPlayerChatEvent. |
 | PlayerChatTabCompleteEvent | Called when a player attempts to tab-complete a chat message. |
-| PlayerCommandPreprocessEvent | This event is called whenever a player runs a command (by placing a slash at the start of their message). |
+| PlayerCommandPreprocessEvent | This event is called whenever a player runs a command \(by placing a slash at the start of their message\). |
 | PlayerDropItemEvent | Thrown when a player drops an item from their inventory |
 | PlayerEditBookEvent | Called when a player edits or signs a book and quill item. |
 | PlayerEggThrowEvent | Called when a player throws an egg and it might hatch |
@@ -31,8 +31,8 @@ Events for players.
 | PlayerInteractAtEntityEvent | Represents an event that is called when a player right clicks an entity that also contains the location where the entity was clicked. |
 | PlayerInteractEntityEvent | Represents an event that is called when a player right clicks an entity. |
 | PlayerInteractEvent | Represents an event that is called when a player interacts with an object or air, potentially fired once for each hand. |
-| PlayerItemBreakEvent | Fired when a player's item breaks (such as a shovel or flint and steel). |
-| PlayerItemConsumeEvent | This event will fire when a player is finishing consuming an item (food, potion, milk bucket). |
+| PlayerItemBreakEvent | Fired when a player's item breaks \(such as a shovel or flint and steel\). |
+| PlayerItemConsumeEvent | This event will fire when a player is finishing consuming an item \(food, potion, milk bucket\). |
 | PlayerItemHeldEvent | Fired when a player changes their currently held item |
 | PlayerItemMendEvent | Represents when a player has an item repaired via the Mending enchantment. |
 | PlayerJoinEvent | Called when a player joins a server |
@@ -47,7 +47,7 @@ Events for players.
 | PlayerPreLoginEvent | Deprecated. This event causes synchronization from the login thread; AsyncPlayerPreLoginEvent is preferred to keep the secondary threads asynchronous. |
 | PlayerQuitEvent | Called when a player leaves a server |
 | PlayerRegisterChannelEvent | This is called immediately after a player registers for a plugin channel. |
-| PlayerResourcePackStatusEvent | Called when a player takes action on a resource pack request sent via Player.setResourcePack(java.lang.String). |
+| PlayerResourcePackStatusEvent | Called when a player takes action on a resource pack request sent via Player.setResourcePack\(java.lang.String\). |
 | PlayerRespawnEvent | Called when a player respawns. |
 | PlayerShearEntityEvent | Called when a player shears an entity |
 | PlayerStatisticIncrementEvent | Called when a player statistic is incremented. |
@@ -59,3 +59,4 @@ Events for players.
 | PlayerUnleashEntityEvent | Called prior to an entity being unleashed due to a player's action. |
 | PlayerUnregisterChannelEvent | This is called immediately after a player unregisters for a plugin channel. |
 | PlayerVelocityEvent | Called when the velocity of a player changes. |
+

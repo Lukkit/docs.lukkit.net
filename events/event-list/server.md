@@ -2,8 +2,8 @@
 
 Events related to programmatic state changes via the server.
 
-| Event| Description |
-| --- | --- |
+| Event | Description |
+| :--- | :--- |
 | BroadcastMessageEvent | Event triggered for server broadcast messages such as from `plugin.getServer():broadcast(String, String)`. |
 | MapInitializeEvent | Called when a map is initialized. |
 | PluginDisableEvent | Called when a plugin is disabled. |
@@ -16,4 +16,5 @@ Events related to programmatic state changes via the server.
 | ServiceEvent | An event relating to a registered service. |
 | ServiceRegisterEvent | This event is called when a service is registered. |
 | ServiceUnregisterEvent | This event is called when a service is unregistered. |
-| TabCompleteEvent | Called when a CommandSender of any description (ie: player or console) attempts to tab complete. |
+| TabCompleteEvent | Called when a CommandSender of any description \(ie: player or console\) attempts to tab complete. |
+

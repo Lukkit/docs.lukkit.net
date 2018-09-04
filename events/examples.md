@@ -1,6 +1,7 @@
 # Examples
 
 This method hooks into the `BlockBreakEvent` event and sends a message to the player who broke the block.
+
 ```lua
 plugin.registerEvent("BlockBreakEvent", function(e)
     e:getPlayer():sendMessage("You broke a block")
@@ -8,6 +9,7 @@ end)
 ```
 
 This next example allows the player to execute the command `/inspect` in order to be placed into a table. Once placed in this table, the player will not be able to break blocks and instead will receive information on the block that was broken. The same command can be run again to disable this feature.
+
 ```lua
 -- Imports
 material = import("$.Material")
@@ -51,3 +53,4 @@ plugin.registerEvent("BlockBreakEvent", function(e)
     end
 end)
 ```
+

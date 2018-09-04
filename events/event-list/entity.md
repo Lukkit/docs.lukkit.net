@@ -2,8 +2,8 @@
 
 Events related to enetities, excluding some that reference entities in a more specific manner.
 
-| Event| Description |
-| --- | --- |
+| Event | Description |
+| :--- | :--- |
 | AreaEffectCloudApplyEvent | Called when a lingering potion applies it's effects. |
 | CreatureSpawnEvent | Called when a creature is spawned into a world. |
 | CreeperPowerEvent | Called when a Creeper is struck by lightning. |
@@ -33,7 +33,7 @@ Events related to enetities, excluding some that reference entities in a more sp
 | EntityTameEvent | Thrown when a LivingEntity is tamed |
 | EntityTargetEvent | Called when a creature targets or untargets another entity |
 | EntityTargetLivingEntityEvent | Called when an Entity targets a LivingEntity and can only target LivingEntity's. |
-| EntityTeleportEvent | Thrown when a non-player entity (such as an Enderman) tries to teleport from one location to another. |
+| EntityTeleportEvent | Thrown when a non-player entity \(such as an Enderman\) tries to teleport from one location to another. |
 | EntityToggleGlideEvent | Sent when an entity's gliding status is toggled with an Elytra. |
 | EntityUnleashEvent | Called immediately prior to an entity being unleashed. |
 | ExpBottleEvent | Called when a ThrownExpBottle hits and releases experience. |
@@ -42,7 +42,7 @@ Events related to enetities, excluding some that reference entities in a more sp
 | FoodLevelChangeEvent | Called when a human entity's food level changes |
 | HorseJumpEvent | Called when a horse jumps. |
 | ItemDespawnEvent | This event is called when a Item is removed from the world because it has existed for 5 minutes. |
-| ItemMergeEvent	 |  |
+| ItemMergeEvent |  |
 | ItemSpawnEvent | Called when an item is spawned into a world |
 | LingeringPotionSplashEvent | Called when a splash potion hits an area |
 | PigZapEvent | Stores data for pigs being zapped |
@@ -56,3 +56,4 @@ Events related to enetities, excluding some that reference entities in a more sp
 | SlimeSplitEvent | Called when a Slime splits into smaller Slimes upon death |
 | VillagerAcquireTradeEvent | Called whenever a villager acquires a new trade. |
 | VillagerReplenishTradeEvent | Called when a villager's trade's maximum uses is increased, due to a player's trade. |
+

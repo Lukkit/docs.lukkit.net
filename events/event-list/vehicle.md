@@ -2,8 +2,8 @@
 
 Events for vehicular entities.
 
-| Event| Description |
-| --- | --- |
+| Event | Description |
+| :--- | :--- |
 | VehicleBlockCollisionEvent | Raised when a vehicle collides with a block. |
 | VehicleCollisionEvent | Raised when a vehicle collides. |
 | VehicleCreateEvent | Raised when a vehicle is created. |
@@ -15,3 +15,4 @@ Events for vehicular entities.
 | VehicleExitEvent | Raised when a living entity exits a vehicle. |
 | VehicleMoveEvent | Raised when a vehicle moves. |
 | VehicleUpdateEvent | Called when a vehicle updates |
+

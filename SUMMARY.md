@@ -32,6 +32,7 @@
     * [Utilities](globals/global-variables/utilities.md)
 * [Wrappers](wrappers.md)
 * [Examples](examples/README.md)
+  * [Discord Webhooks \(http\)](examples/discord-webhooks-http.md)
   * [Toggle Fly](examples/toggle-fly.md)
   * [Hello, world!](examples/hello-world.md)
 

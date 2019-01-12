@@ -10,6 +10,7 @@
   * [Example](storage/example.md)
 * [Commands](commands/README.md)
   * [Command Options](commands/command-options.md)
+  * [Command Event](commands/command-event.md)
   * [Examples](commands/examples.md)
 * [Events](events/README.md)
   * [Examples](events/examples.md)

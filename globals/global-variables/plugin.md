@@ -34,7 +34,7 @@ Represented by `plugin`.
 
 * **`plugin.addCommand(options: table, callback: function)` :** [**Command**](https://github.com/artex-development/docs.lukkit.net/tree/b600fc95db6df12a29cf3c019492ca125cee8319/globals/global-variables/Commands/README.md#command)\*\*\*\*
 
-  Create a command. More information on creating commands can be found [here](https://github.com/artex-development/docs.lukkit.net/tree/b600fc95db6df12a29cf3c019492ca125cee8319/globals/global-variables/Commands/README.md).
+  Create a command. More information on creating commands can be found [here](../../commands/).
 
   ```lua
   local testCommand = plugin.addCommand({name="hello",description="Hello world"}, function(cmd)

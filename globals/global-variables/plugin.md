@@ -44,7 +44,7 @@ Represented by `plugin`.
 
 * **`plugin.registerEvent(event: string, callback: function)`**
 
-  Register an event. More information on registering events can be found [here](https://github.com/artex-development/docs.lukkit.net/tree/b600fc95db6df12a29cf3c019492ca125cee8319/globals/global-variables/Events/README.md).
+  Register an event. More information on registering events can be found [here](../../events/).
 
   ```lua
   plugin.registerEvent("BlockBreakEvent", function(e)

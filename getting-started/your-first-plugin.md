@@ -42,7 +42,7 @@ end)
 
 ### Commands
 
-Creating commands in Lukkit is simple and requires only three lines of code. When creating a command in Lukkit, information about the command is stored in objects, such as the name and description. More information about commands can be found [here](https://lukkit.net/Commands).
+Creating commands in Lukkit is simple and requires only three lines of code. When creating a command in Lukkit, information about the command is stored in objects, such as the name and description. More information about commands can be found [here](../commands/).
 
 An example of a main Lua file with a command looks like:
 

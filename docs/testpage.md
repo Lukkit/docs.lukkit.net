@@ -1,4 +1,4 @@
 # Test
 
-This is a tet page
+This is a 'tet' page
 

@@ -4,3 +4,7 @@ theme:
     name: material
     palette:
         scheme: slate
+
+plugins:
+  - search:
+    prebuild_index: true

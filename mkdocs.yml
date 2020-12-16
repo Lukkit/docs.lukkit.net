@@ -3,6 +3,8 @@ site_name: Lukkit Docs
 theme:
     name: material
     palette:
+        primary: green
+        accent: teal
         scheme: slate
 
 plugins:

@@ -15,8 +15,8 @@ on:
 
 
 jobs:
-  pre-build:
-    name: Setup build environment
+  build-docs:
+    name: Build documentation
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +28,6 @@ jobs:
       - name: Setup Python and Pip
         uses: actions/setup-python@v2
         with:
-          path: '.github/workflows'
           python-version: '3.x'
 
       - name: Install MKDocs with plugins
@@ -38,11 +37,5 @@ jobs:
             mkdocs-material
             mkdocs-git-revision-date-localized-plugin
 
-  build-docs:
-    name: Build documentation
-    runs-on: ubuntu-latest
-    needs: pre-build
-
-    steps:
       - name: Run 'mkdocs build'
         run: mkdocs build

@@ -10,6 +10,7 @@ on:
       - develop
     types: [ opened, synchronize ]
 
+
 jobs:
   pre-build:
     name: Setup build environment
@@ -33,6 +34,7 @@ jobs:
           packages: |
             mkdocs-material
             mkdocs-git-revision-date-localized-plugin
+
   build-docs:
     name: Build documentation
     runs-on: ubuntu-latest

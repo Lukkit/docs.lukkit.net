@@ -1,0 +1,41 @@
+name: Build Documentation
+
+on:
+  push: 
+    - main
+    - develop
+  pull_request:
+    - main
+    - develop
+
+jobs:
+  pre-build:
+    name: Setup build environment
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python and Pip
+        uses: actions/setup-python@v2
+        with:
+          path: '.github/workflows'
+          python-version: '3.x'
+
+      - name: Install MKDocs with plugins
+        uses: BSFishy/pip-action@v1
+        with:
+          packages: |
+            mkdocs-material
+            mkdocs-git-revision-date-localized-plugin
+  build-docs:
+    name: Build documentation
+    runs-on: ubuntu-latest
+    needs: pre-build
+
+    steps:
+      - name: Run 'mkdocs build'
+        run: mkdocs build

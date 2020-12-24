@@ -9,5 +9,5 @@ theme:
 
 plugins:
   - search:
-    prebuild_index: true
+      prebuild_index: true
   - git-revision-date

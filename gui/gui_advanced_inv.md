@@ -10,7 +10,7 @@ local material = import("$.Material")
 -- Create inventory
 local title = "This is the inventory title"
 local slots = 9
-local inv = bukkit:createInventory(nil, slots, title)
+local inv = plugin.getServer():createInventory(nil, slots, title)
 
 -- Create new item stack
 local countOfItems = 1

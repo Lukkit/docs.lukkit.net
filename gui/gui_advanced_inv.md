@@ -38,3 +38,6 @@ player:openInventory(inv)
 ```
 
 This code allows you to set the item name and the lore text
+
+![inv_advanced](https://user-images.githubusercontent.com/15909166/119182420-29c95d80-ba73-11eb-8ad8-0ba5825f917c.png)
+

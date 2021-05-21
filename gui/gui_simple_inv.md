@@ -12,6 +12,8 @@ player:openInventory(inv)
 ```
 **Make sure thah your slots number can be divided by 9 and is lower then 55 (max. Slots 54)**
 
+![inv_simple](https://user-images.githubusercontent.com/15909166/119182458-39e13d00-ba73-11eb-94eb-b8825194c3ea.png)
+
 ## Set an item for the inventory
 
 ```lua
@@ -34,3 +36,5 @@ player:openInventory(inv)
 ```
 
 This code allows you to open an inventory with an grass block item in the first slot of the inventory
+
+![inv_with_item](https://user-images.githubusercontent.com/15909166/119182479-41084b00-ba73-11eb-9f1c-9ad84fcd8984.PNG)
